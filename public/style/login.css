@@ -1,0 +1,56 @@
+html, body{
+    height: 100%;
+    background: url('../images/bg.jpg');
+}
+
+
+.global-contrainer{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.login-form{
+    width: 380px;
+    height: 450px;
+    padding: 20px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    box-sizing: border-box;
+}
+
+
+.regis-form{
+    width: 400px;
+    height: 550px;
+    padding: 20px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    box-sizing: border-box;
+}
+
+input[type="email"],
+input[type="password"] {
+    background: rgb(255, 254, 254);
+    color: rgb(0, 0, 0);
+    border: 2px solid #000000;
+    border-radius: 10px;
+    margin-bottom: 25px; 
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline:none;
+    border:none;
+    background: #ffffff;
+    color:rgb(0, 0, 0);
+    margin: 0;
+}
+
+.detail{
+    width: 400px;
+    height: 550px;
+    padding: 20px;
+}
